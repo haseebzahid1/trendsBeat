@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'Gontserrat-Regular';
+    src: url("../fonts/gontserrat/Gontserrat-Regular.ttf");
+}
+@font-face {
+    font-family: 'Gontserrat-Bold';
+    src: url("../fonts/gontserrat/Gontserrat-Bold.ttf");
+}
+/* health custom style css start */
+.border-radius-div{
+    /* margin-top:40px; */
+    border-radius: 15px;
+}
+.border-radius-div-banner{
+    margin-top:141px;
+    border-radius: 15px;
+}
+.about-img{
+    width: 100%;
+    border-radius: 15px;
+    /* padding-top: 40px; */
+    height: 337px;
+    object-fit: cover;
+    background-size: cover;
+}
+.health-bg-banner-img{
+    width: 100%;
+    height: 994px;
+    object-fit: cover;
+    background-size: cover;
+}
+.health-btn-a{
+    background: #CC172D;
+    border-color: #CC172D;
+    color: #ffffff !important;
+    min-height: 49px;
+    line-height: 49px;
+    padding:0px 25px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Gontserrat-Regular';
+    /* font-family: 'D:\adeel xd zip file\task-1\task-1\task-1\fonts\gontserrat\Gontserrat-Bold.ttf'; */
+}
+
+.parch-p-top{
+    padding-top: 56px !important;
+    padding-bottom: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+/* health custom style css end */
+
+
+/* footer custom style css start */
+.footer-bg{
+    background-color: #202020;
+}
+.footer-padding{
+    padding-top: 173px;
+    padding-bottom: 84px;
+}
+
+.footer-logo{
+    position: relative;
+ 
+    
+}
+.footer-logo svg{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    max-width: 441px;
+    height: 97px;
+    
+}
+
+.footer-nav-title{
+    font-size: 28px;
+    font-family: 'Gontserrat-Regular';
+    color: #fff;
+    opacity: 55%;
+}
+.footer-title-margin{
+    margin-top: 76px;
+    margin-bottom: 57px;
+}
+.footer-description{
+    font-size: 20px;
+    font-family: 'Gontserrat-Regular';
+    color: #fff;
+    opacity: 55%;
+    line-height: 27px;
+    margin-bottom: 46px;
+}
+ .footer_google_play,
+.footer_app_store{
+   position: relative;
+}
+.footer_google_play svg,
+.footer_app_store svg{
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+/*.footer_google_play img,
+.footer_app_stor img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+} */
+.footer_app_store{
+    margin-left: 40px;
+}
+.footer-social-div{
+    /* background-color: wheat; */
+}
+.footer-social-icon{
+    position: relative;
+}
+.footer-social-icon svg{
+    position: relative;
+    left: 0;
+    bottom: -12px;
+    border-radius: 50px !important;
+    width: 77px;
+    height: 77px;
+}
+/* .footer-social-icon{
+    text-align: center;
+    width: 77px;
+    height: 77px;
+    line-height:77px;
+    background-color: #91A0A0;
+    border-radius: 50px;
+}
+.footer-social-icon a{
+    font-size: 55px;
+    color: #202020;
+    width: 100%;
+    height: 100%;
+    display: block;
+} */
+
+.footer-social-icon a{
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.social-ml{
+    margin-left: 68px;
+}
+
+@media (min-width: 767.98px) {
+   
+}
+@media (min-width: 991.98px) {
+    .footer-nav-title{
+        font-size: 28px;
+    }
+}
+
+/* / max-width / */ 
+@media (max-width: 767.98px) {
+    .footer-padding{
+        padding-top: 102px;
+        padding-bottom: 84px;
+    }
+    /* .footer-social-icon svg{
+        width: 57px;
+        height: 57px;
+    } */
+}
+@media (min-width: 767.98px) {
+    .footer-nav-title{
+        font-size: 24px;
+    }
+}
+@media (max-width: 991.98px) {
+    .footer-social-icon svg{
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer-social-icon svg{
+        bottom: -25px;
+    }
+}
+@media (max-width: 567.98px) {
+    .social-ml{
+        margin-left: 27px;
+    }
+    .footer-padding{
+        padding-top: 54px;
+    }
+    .footer-title-margin {
+        margin-top: 34px;
+        margin-bottom: 44px;
+    }
+}
+
+
+
+
+
+/* ////banner section custom style css start */ 
+
+.banner-container{
+    padding-top: 86px;
+    padding-bottom:78px ;
+    position: relative;
+}
+
+.banner-inner{
+    width: 100%;
+    height: 177px;
+}
+.banner-inner img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+/* ////banner section custom style css end */ 
+
+
+
+
+/* ////Subscribe section custom style css start */ 
+.subscribe{
+    background-color:#E8E8E8;
+}
+.subscribe-bg-color{
+    padding-top: 85px;
+    padding-bottom: 79px;
+}
+.subscribe-h1{
+    font-size: 50px;
+    color: #000000;
+    font-family: 'Gontserrat-Bold';
+    line-height: 67px;
+}
+.subscribe-input-container {
+    width: 100%;
+    height: 50px;
+}
+.subscribe-input-container input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #707070;
+    background-color: transparent;
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+    font-size: 20px;
+    font-family: 'Gontserrat-Regular';
+    color: #707070;
+}
+
+@media (max-width: 567.98px) {
+    .subscribe-h1{
+        font-size: 21px;
+        color: #848484;
+        line-height: 41px;
+    }
+    .subscribe-bg-color{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+/* ////Subscribe section custom style css end */ 

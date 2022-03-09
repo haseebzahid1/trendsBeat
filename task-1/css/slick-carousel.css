@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Gontserrat-Regular';
+    src: url("../fonts/gontserrat/Gontserrat-Regular.ttf");
+}
+@font-face {
+    font-family: 'Gontserrat-Bold';
+    src: url("../fonts/gontserrat/Gontserrat-Bold.ttf");
+}
+.product-reviews{
+    background-color: #100F0F;
+}
+.product-reviews-padding{
+    padding-top: 94px !important;
+    padding-bottom: 94px !important;
+    background-color: #100F0F;
+    /* padding-left: 2rem !important; */
+}
+.swiper-img-container{
+    width: 100% ;
+    max-width: 414px;
+    /* width: 100%; */
+    height: 567px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+@media (max-width: 976px) {
+    .swiper-img-container{
+        max-width: 480px;
+        height: 375px;
+        /* width: 100%; */
+    }
+    
+    .product-reviews-padding .owl-carousel .item{
+        /* width: 100% !important; */
+    } 
+}
+@media (max-width: 567px) {
+    .swiper-img-container{
+        max-width: 136px;
+        height: 187px;
+        /* width: 100%; */
+    }
+}
+.swiper-img-container img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100% !important;
+    height: 100%;
+    border-radius: 15px;
+    
+}
+.swiper-title,
+.swiper-sub_title{
+    font-size: 80px;
+    font-family: 'Gontserrat-Bold';
+    line-height: 80px;
+}
+.swiper-title{
+    color: #fff;
+}
+.swiper-sub_title{
+    color: #C02539;
+}
+/* .swiper-slide {
+    width: 80%;
+  }
+
+  .swiper-slide:nth-child(2n) {
+    width: 70%;
+  }
+
+  .swiper-slide:nth-child(3n) {
+    width: 80%;
+  } */
+  @media (max-width: 776px) {
+    .swiper-title,
+    .swiper-sub_title{
+font-size: 63px;
+line-height: 63px;
+    } 
+  }
