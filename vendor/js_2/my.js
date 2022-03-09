@@ -1,33 +1,34 @@
 
 
   $('.owl-carousel').owlCarousel({
-    items:1,
+    items:4,
     loop:true,
-    margin:20,
+    margin:10,
     merge:true,
     dots:false,
+    mergeFit:true,
     responsive:{
         567:{
-            // mergeFit:true,
+            mergeFit:true,
             items:3,
             margin:20,
         },
-        767:{
-            // mergeFit:true,
-            items:3,
-            margin:30,
-        },
+        // 767:{
+        //     mergeFit:true,
+        //     items:3,
+        //     margin:30,
+        // },
         1000:{
-          // mergeFit:true,
+          mergeFit:true,
             // mergeFit:false,
             items:4,
             margin:50,
         },
-        1300:{
+        1400:{
           margin:50,
-          // mergeFit:true,
-            mergeFit:true,
-            items:5,
+          mergeFit:true,
+            // mergeFit:true,
+            items:4,
         }
     }
 });
