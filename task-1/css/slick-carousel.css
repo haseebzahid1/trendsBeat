@@ -13,12 +13,11 @@
     padding-top: 94px !important;
     padding-bottom: 94px !important;
     background-color: #100F0F;
-    /* padding-left: 2rem !important; */
 }
+
 .swiper-img-container{
     /* width: 100% ; */
     max-width: 414px;
-    /* width: 100%; */
     height: 567px;
     margin-left: auto;
     margin-right: auto;
@@ -67,7 +66,6 @@
     .swiper-img-container{
         /* max-width: 480px; */
         height: 375px;
-        /* width: 100%; */
     }
   }
   @media (max-width: 767px) {
@@ -87,15 +85,195 @@
     .swiper-img-container{
         max-width: 136px;
         height: 187px;
-        /* width: 100%; */
     }
   }
  
 
-  /* @media (max-width:567) {
-    .product-reviews-padding .owl-carousel .owl-stage-outer .owl-item{
-        width: 152px !important;
-    }
-  }
-   */
  
+/* ////feature blogs section custom style css start */ 
+.feature_blogs-padding{
+  background-color: rgba(237, 237, 237, 0.5); 
+  position: relative;
+  padding-top: 35px !important;
+  padding-bottom: 145px !important;
+  
+}
+.blog-title,
+.blog-sub-title{
+  font-size: 55px;
+  color:#CC172D;
+  font-family: 'Gontserrat-Bold';
+  line-height: 73px;
+}
+.blog-sub-title{
+  color: #000;
+}
+.blog-owl-caorousel{
+  margin-top: 60px;
+}
+.feature_blogs-container{
+  width: 100%;
+  max-width: 674px;
+  height: 467px;
+  position: relative;
+  border-radius: 15px;
+ 
+}
+@media (max-width: 576px){
+  .feature_blogs-container{
+      width:100%;
+      height: 157px;
+  }
+}
+.feature_blogs-container:before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.3);
+border-radius: 15px;
+}
+.feature_blogs-img{
+  width: 100%;
+  height: 100%;
+}
+.feature_blogs-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+.feature_blogs-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 118px;
+  /* background-color: red; */
+}
+@media (max-width: 576px){
+  .feature_blogs-content{
+      height: 40px;
+  }
+}
+
+.feature_blogs-item{
+  width: 122px;
+  height: 118px;
+  line-height: 118px;
+  background-color: red;
+  text-align: center;
+  border-top-left-radius: 15px;
+  
+}
+@media (max-width: 576px){
+  .feature_blogs-item{
+      width: 41px;
+      height: 40px;
+      line-height: 40px;
+  }
+}
+
+.feature_blogs-item span,
+.feature_blogs-number span{
+  display: block;
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Gontserrat-Bold';
+}
+@media (max-width: 576px){
+  .feature_blogs-item span,
+.feature_blogs-number span{
+  font-size: 16px;
+  }
+}
+
+.feature_blogs-number span{
+  line-height: 118px;
+  padding-right: 26px;
+}
+@media (max-width: 576px){
+  .feature_blogs-number span{
+      line-height: 40px;
+      padding-right: 14px;
+  }
+}
+.feature_blog-text{
+  position: absolute;
+  bottom: 38px;
+  left: 30px;
+  width: 100%;
+}
+@media (max-width: 576px){
+  .feature_blog-text{
+      bottom:15px;
+      left: 10px;
+  }
+}
+.feature_blog-h4{
+  font-size: 20px;
+  line-height: 27px;
+  font-family: 'Gontserrat-Regular';
+  color: #fff;
+}
+
+@media (max-width: 576px){
+  .feature_blog-h4{
+      font-size: 8px;
+      line-height: 0px;
+      /* line-height: 11px; */
+  }
+}
+.feature_blog-h1{
+  font-size: 45px;
+  font-family: 'Gontserrat-Bold';
+  line-height: 60px;
+  color: #fff;
+}
+@media (max-width: 976px) {
+  .feature_blog-h1{
+      font-size: 34px;
+      line-height: 50px;
+  }
+}
+@media (max-width: 576px){
+  .feature_blog-h1{
+  font-size: 12px;
+  line-height: 16px;
+  }
+}
+
+/* ////feature blogs section custom style css end */ 
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.vedio-right-container{
+  background-color: purple;
+  max-width: 100%;
+  height: 807px;
+}
+.swiper-coming-container{
+  width: 100%;
+  height: 315px;
+  position: relative;
+ 
+}
+.swiper-coming-container:not(:first-child){
+  margin-top: 34px;
+}
+.swiper-coming-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.positon-title{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
