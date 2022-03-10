@@ -1,6 +1,24 @@
+$('.owl-carousel-3').owlCarousel({
+ 
+  autoplay:false,
+  items:1,
+  loop:true,
+  margin:10,
+  responsiveClass:true,
+  nav:false,
+  dots:false,
+  // responsive:{
+      
+  //     676:{
+  //         items:2
+  //     },
+  //     1000:{
+  //         items:3
+  //     }
+  // }
+})
 
-
-  $('.owl-carousel').owlCarousel({
+  $('.owl-carousel-product').owlCarousel({
     items:4,
     loop:true,
     margin:10,
@@ -80,4 +98,13 @@ var swiper = new Swiper(".mySwiper2", {
     el: ".swiper-pagination",
     clickable: true,
   },
+});
+
+
+const faqs = document.querySelectorAll(".faq");
+
+faqs.forEach((faq) =>{
+   faq.addEventListener("click", () =>{
+       faq.classList.toggle("active");
+   });
 });

@@ -6,6 +6,17 @@
     font-family: 'Gontserrat-Bold';
     src: url("../fonts/gontserrat/Gontserrat-Bold.ttf");
 }
+.health-mobile-screen{
+  display: none;
+}
+@media (max-width:768px){
+.health-mobile-screen{
+  display: block;
+}
+.health-destop-screen{
+  display: none;
+}
+}
 .product-reviews{
     background-color: #100F0F;
 }
@@ -282,3 +293,75 @@ border-radius: 15px;
   color: #fff;
   padding-left: 16px;
 }
+
+.global{
+  margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+.global-faq{
+  width: 100%;
+  /* max-width: 218px; */
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16%), 0 3px 6px rgba(0, 0, 0, 0.23%);
+ 
+}
+.global-question{
+  display: flex;
+  justify-content: space-between;
+  padding:15px 0;
+  cursor: pointer;
+}
+.global-answer{
+  /* display: flex; 
+  justify-content: space-between; */
+  /* height: 45px; */
+  /* align-items: center; */
+  width: 100%;
+  padding: 0 15px;
+
+}
+.answer{
+  overflow: hidden;
+  max-height: 0px;
+  transition:  all 1s ease;
+}
+.global-flag img{
+  width: 100%;
+  max-width: 40px;
+  object-fit: cover;
+}
+.faq.active .answer{
+  max-height: 300px;
+  animation:  fade 0.2s ease-in;
+}
+.faq span i{
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+.faq.active span i{
+  transform: rotate(180deg);
+ 
+ 
+}
+@keyframes fade {
+  from{
+      /* opacity: 0; */
+      transform: translateY(-3px);
+  }
+  to{
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+/* @media (max-width:767px){
+  .global-question{
+    height: 42px;
+    justify-content: flex-start;
+   
+  }
+  span{
+    display: inline-block;
+}
+ 
+} */
