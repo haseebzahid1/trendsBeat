@@ -254,7 +254,7 @@ border-radius: 15px;
   height: 100%;
 }
 .vedio-right-container{
-  background-color: purple;
+  /* background-color: purple; */
   max-width: 100%;
   height: 807px;
 }
@@ -262,10 +262,11 @@ border-radius: 15px;
   width: 100%;
   height: 315px;
   position: relative;
+  
  
 }
 .swiper-coming-container:not(:first-child){
-  margin-top: 34px;
+  margin-top: 24px;
 }
 .swiper-coming-container img{
   width: 100%;
@@ -276,4 +277,8 @@ border-radius: 15px;
   position: absolute;
   bottom: 0;
   left: 0;
+}
+.positon-title-h1{
+  color: #fff;
+  padding-left: 16px;
 }

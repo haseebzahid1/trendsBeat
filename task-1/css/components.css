@@ -1,0 +1,29 @@
+.health-section,
+.sports-section{
+    padding-bottom:100px !important;
+   /* background-color: saddlebrown; */
+   position: relative !important;
+   /* z-index: 222 !important; */
+}
+.vertical-1,
+.vertical-2{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 72px;
+    background-color: #CC172D;
+    height: 100%;
+}
+.vertical-1{
+    left:0;
+}
+.vertical-2{
+    right: 0;
+    /* z-index: -11; */
+}
+@media (max-width:768px){
+    .vertical-1,
+    .vertical-2{
+        display: none;
+    }
+}
