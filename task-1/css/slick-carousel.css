@@ -6,15 +6,26 @@
     font-family: 'Gontserrat-Bold';
     src: url("../fonts/gontserrat/Gontserrat-Bold.ttf");
 }
-.health-mobile-screen{
+.health-mobile-screen,
+.sports-mobile-screen{
   display: none;
 }
 @media (max-width:768px){
-.health-mobile-screen{
+.health-mobile-screen,
+.sports-mobile-screen{
   display: block;
 }
-.health-destop-screen{
+.health-destop-screen,
+.sports-destop-screen{
   display: none;
+}
+.parch-p-top{
+  padding-top: 9px !important;
+  padding-bottom: 6px !important;
+}
+.parah-text {
+  padding-top: 9px !important;
+  padding-bottom: 6px !important;
 }
 }
 .product-reviews{
@@ -335,11 +346,11 @@ border-radius: 15px;
   max-height: 300px;
   animation:  fade 0.2s ease-in;
 }
-.faq span i{
+.faq .global-arrow svg{
   display: inline-block;
   transition: all 0.3s ease;
 }
-.faq.active span i{
+.faq.active .global-arrow svg{
   transform: rotate(180deg);
  
  
@@ -353,6 +364,28 @@ border-radius: 15px;
       opacity: 1;
       transform: translateY(0);
   }
+}
+.global-question p{
+  color: #CC172D;
+  margin-bottom: 1px !important;
+}
+.global-question .global-title{
+  font-size: 14px;
+  font-family: 'Gontserrat-Bold';
+  color: #000;
+  line-height: 19px;
+}
+.global-question .global-arrow{
+  display: block;
+  /* font-size: 33px; */
+  width: 25.606px;
+  height: 11.27px;
+  position: relative;
+  margin-left: 2.7rem !important;
+}
+.global-arrow svg{
+width: 100%;
+height: 100%;
 }
 /* @media (max-width:767px){
   .global-question{
