@@ -208,3 +208,109 @@
 }
 
 /* /// mmobile-header-sec end */
+
+
+/* //////DETAIL PAGE TOP Header section start */
+
+.detail-bg-img{
+    width: 100%;
+    height: 736px;
+    position: relative;
+}
+.detail-bg-img:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+.detail-bg-img img{
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.detail-header-content{
+    position: absolute;
+    bottom: 11%;
+    left: 0;
+    z-index: 3;
+    padding-left: 8.80%;
+    padding-right: 3%;
+}
+.detail-header-title-h3,
+.header-span,
+.header-sub-span{
+    font-size: 25px;
+    line-height: 33px;
+    color: #ffffff;
+    font-family: 'Gontserrat-Regular';
+
+}
+.detail-header-title-h1{
+    font-size: 90px;
+    color: #ffffff;
+    font-family: 'Gontserrat-Bold';
+    line-height: 120px;
+}
+.header-span,
+.header-sub-span{
+    display: inline-block;
+}
+.header-sub-span{
+    padding-left:50px ;
+}
+@media(max-width:1200px){
+    etail-header-title-h1{
+        font-size: 85px;
+        line-height: 102px;
+    }
+   
+}
+@media(max-width:992px){
+    .detail-header-title-h1{
+        font-size: 70px;
+        line-height: 90px;
+    }
+    .detail-header-content{
+        padding-left: 5%
+    }
+}
+@media(max-width:768px){
+    .detail-header-content{
+        padding-left: 10%
+    }
+    .detail-bg-img{
+        height: 210px;
+    }
+    .detail-header-title-h3{
+        font-size: 12px;
+        font-family: 'Gontserrat-Regular';
+        line-height: 16px;
+    }
+    .detail-header-title-h1 {
+        font-size: 24px ;
+        line-height: 32px;
+    }
+   
+    .header-span,
+    .header-sub-span{
+        font-size: 8px;
+        font-family: 'Gontserrat-Regular';
+        line-height: 11px;
+    }
+      .header-sub-span{
+        padding-left: 0px;
+    }
+    .detai-header-span-flex{
+        display: flex;
+        justify-content:space-between;
+        /* padding-right: 2.85%; */
+        padding-right: 9%;
+    }
+}
+/* //////DETAIL PAGE TOP Header section start */

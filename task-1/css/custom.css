@@ -6,6 +6,7 @@
     font-family: 'Gontserrat-Bold';
     src: url("../fonts/gontserrat/Gontserrat-Bold.ttf");
 }
+
 @media (max-width:992px){
     .letest-right-flex{
       display: none !important;
@@ -543,3 +544,68 @@
     height: 120px;
     background-color: #fff;
 }
+
+/* //////* ////detail banner section custom style css start */  
+.detail-banner-bg{
+    width: 100%;
+    height: 160px;
+}
+.detail-destop-screen{
+    padding-top: 159px !important;
+    padding-bottom: 74.5px !important;
+}
+.detail-banner-bg img{
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.detail-small-right-banner{
+    width: 100%;
+    height: 544px;
+    position: relative;
+}
+.detail-small-right-banner img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner-right-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* width: 100%; */
+    /* height: 100%; */
+}
+.banner-right-title{
+    font-size: 50px;
+    line-height:67px;
+    font-family: 'Gontserrat-Bold';
+    color: #E8E8E8;
+}
+.banner-left-top{
+    padding-top: 56px;
+}
+.social-left-text{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 27px;
+    color: #9B9B9B;
+    font-family: 'Gontserrat-Regular';
+}
+.text-color-red{
+    color: #FF0000;
+}
+.detail-right-icon{
+    width: 31px;
+    height: 26px;
+    display: inline-block;
+}
+.detail-right-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* //////* ////detail banner section custom style css end */  
