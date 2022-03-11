@@ -50,3 +50,16 @@
     background-color: #707070;
     border-radius: 10px;
 }
+.meta-quest-title-mt{
+    margin-bottom: 40px;
+}
+
+.meta-quest-title,
+.sub-domain-title{
+    /* font-size: 60px; */
+    font-size: 55px;
+    line-height: 80px;
+    color: #606060;
+    font-family: 'Gontserrat-Bold';
+    
+}
