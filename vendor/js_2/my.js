@@ -123,3 +123,17 @@ $('.header-mobile-container').owlCarousel({
       
   }
 })
+$('.meta-owl-carousel').owlCarousel({
+  loop:false,
+  autoplay:false,
+  margin:0,
+  responsiveClass:false,
+  nav:true,
+  dots:false,
+  responsive:{
+      0:{
+          items:1
+      }
+      
+  }
+})

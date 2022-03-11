@@ -1,3 +1,11 @@
+.mysvg{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .section-top-0{
     padding-top: 0 ;
    padding-bottom: 0 ;
@@ -30,4 +38,15 @@
     .vertical-2{
         display: none;
     }
+}
+
+
+.banner-left-line:not(:first-child){
+    margin-top: 54px;
+}
+.banner-left-line{
+    width: 100%;
+    height: 9px;
+    background-color: #707070;
+    border-radius: 10px;
 }

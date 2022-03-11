@@ -130,7 +130,7 @@ a, a:active, a:focus, a:hover {
 }
 
 a{
-    color: #fff;
+    /* color: #fff; */
 }
 
 .bottom-link a:hover{

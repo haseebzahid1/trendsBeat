@@ -22,9 +22,9 @@
     transition: all 0.3s ease !important;
     border-radius: 3px; }
     .owl-theme .owl-nav [class*='owl-']:hover {
-      background: #FE6B01 !important;
-      border: 1px solid #FE6B01 !important;
-      color: #FFF !important;
+      background: #FE6B01 ;
+      border: 1px solid #FE6B01 ;
+      color: #FFF;
       text-decoration: none; }
   .owl-theme .owl-nav .disabled {
     opacity: 0.5;
