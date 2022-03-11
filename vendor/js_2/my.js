@@ -109,7 +109,7 @@ faqs.forEach((faq) =>{
    });
 });
 
-$('.header-container').owlCarousel({
+$('.header-mobile-container').owlCarousel({
   loop:false,
   autoplay:false,
   margin:0,

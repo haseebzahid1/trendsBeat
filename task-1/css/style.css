@@ -1077,42 +1077,18 @@ svg {
     object-fit: cover;
 }
     
-.banner-content .banner-head{
-    font-size: 20px;
-    font-weight: 400;
-    color: #ffffff;
-   
-}
-.banner-des{
-    font-size: 33px;
-    line-height: 1.2;
-    font-weight: bold;
-    color: #ffffff;
-}
-.left-para{
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 300;
-    color: #ffffff;
-}
-.right-para{
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 300;
-    color: #ffffff;
-}
 
 
-.text-1{
+
+
+
+/* .text-1{
     font-size: 14px;
     color: #fff;
     opacity: 0.6800000071525574;
-}
+} */
 
-.center-between{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .banner-content{
     position: absolute;
