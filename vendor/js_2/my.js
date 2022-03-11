@@ -108,3 +108,18 @@ faqs.forEach((faq) =>{
        faq.classList.toggle("active");
    });
 });
+
+$('.header-container').owlCarousel({
+  loop:false,
+  autoplay:false,
+  margin:0,
+  responsiveClass:false,
+  nav:false,
+  dots:true,
+  responsive:{
+      0:{
+          items:1
+      }
+      
+  }
+})

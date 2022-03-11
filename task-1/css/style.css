@@ -100,9 +100,7 @@ p{
     color: #fff;
 }
 
-.grey{
 
-}
 
 .grey:hover{
     color: #ff573b;
@@ -1083,6 +1081,7 @@ svg {
     font-size: 20px;
     font-weight: 400;
     color: #ffffff;
+   
 }
 .banner-des{
     font-size: 33px;
@@ -1287,18 +1286,24 @@ svg {
     right: 20px;
     top: 30px;
 }
-
+.my_tog {
+    background-color: #cc172d !important;
+}
 .latest-news{
     padding: 18px 36.5px;
     cursor: pointer;
     font-size: 20px;
     color: #fff;
     transition: .8s ease;
-    display: inline-block;
+    display: flex;
     background-color: #cc172d;
 }
 
-
+@media(max-width:992px){
+  .latest-news{
+      padding: 18px 1.5px;
+  }
+}
 .bottom-link{
     font-family: 'Gontserrat-Regular';
     font-size: 15px;

@@ -6,6 +6,11 @@
     font-family: 'Gontserrat-Bold';
     src: url("../fonts/gontserrat/Gontserrat-Bold.ttf");
 }
+@media (max-width:992px){
+    .letest-right-flex{
+      display: none !important;
+    }
+}
 /* health custom style css start */
 .border-radius-div{
     /* margin-top:40px; */
