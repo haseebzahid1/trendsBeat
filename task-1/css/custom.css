@@ -118,9 +118,7 @@
 .footer_app_store{
     margin-left: 40px;
 }
-.footer-social-div{
-    /* background-color: wheat; */
-}
+
 .footer-social-icon{
     position: relative;
 }
@@ -605,11 +603,28 @@
     height: 26px;
     display: inline-block;
     position: relative;
-    margin-left: 24.9px !important;
+    margin-left: 24.9px ;
 }
 .detail-right-icon:first-child{
-    margin-right: 34px !important;
+    margin-right: 34px ;
+    margin-left: 0;
 }
+@media (max-width:1040px){
+    .social-left-text{
+        font-size: 19px;
+    }
+    .detail-right-icon:first-child{
+        /* margin-left: 0px !important; */
+        margin-right: 9px;
+    }
+    .detail-right-icon{
+        width: 26px;
+        height: 24px;
+        margin-left: 10.9px !important;
+    }
+    
+}
+
 .detail-right-icon svg{
     width: 100%;
     height: 100%;
@@ -622,182 +637,6 @@
     margin-top: 60.5px;
 }
 
-.meta-quest{
-    padding-top: 63.3px !important;
-    padding-bottom:44.7px !important;
-    background-color: #FAFAFA;
-}
-
-.meta-owl-bg-container{
-    padding: 0.5rem;
-    padding-bottom: 29px;
-    background-color: red;
-}
-.meta-owl-bg-img{
-    width: 100%;
-    height: 364px;
-    position: relative;
-    z-index: 1;
-    border-radius: 10px;
-    
-}
-/* .meta-owl-bg-img:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    z-index: 2;
-} */
-.meta-owl-bg-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-}
-.meta-owl-right-content{
-    padding-left: 8px;
-}
-
-.meta-owl-p{
-    font-size:14px;
-    color: #fff;
-    line-height: 19px;
-    font-family: 'Gontserrat-Regular';
-}
-.meta-owl-right-button{
-    width: 100%;
-    max-width: 220px !important;
-
-    height: 54px;
-    background-color: #fff;
-    font-size:20px;
-    text-align: center;
-    border-radius: 10px;
-    line-height: 54px;
-    
-    /* transition: all 0.3s ease; */
-}
-.meta-owl-right-button a{
-    display: block;
-    width: 100%;
-    height: 100%;
-    font-size: 20px;
-    color: #CC172D;
-    font-family: 'Gontserrat-Regular';
-}
-.owl-btn-2{
-    margin-left: 1rem;
-    background-color: red;
-    margin-left: auto;
-    margin-right: auto;
-   
-}
-.owl-btn-2 span{
-    display: inline-block;
-    width: 26px;
-    height: 22px;
-    
-}
-.owl-btn-2 a{
-    color: #EFEFEF;
-    opacity: 57%;
-    }
-
-    .owl-btn-2 span{
-        display: inline-block;
-        margin-right: 1rem;
-    }
-.owl-btn-2 span svg{
-    width: 100%;
-    height: 100%;
-    fill: #fff;
-    position: relative;
-    left: 0;
-    bottom: -9px;
-}
-/* .owl-span-22{
-    display: block;
-    width: 100%;
-
-} */
-
-.meta-owl-carousel{
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-/* .owl-btn-2:hover{
-    background-color: #fff;
-}
-.owl-btn-2 a:hover{
-    color: #CC172D;
-}   */
-.meta-quest-right .owl-theme .owl-nav{
-    /* margin-top: -63px !important; */
-}
-.meta-quest-right .owl-theme .owl-dots button{
-    outline: none;
-    border: 1px solid transparent !important;
-    
-}
-.meta-quest-right .owl-theme .owl-dots .owl-dot span{
-    width: 12px;
-     height: 12px;
-     background-color: #FFFFFF;
-     opacity: 1;
-     border-radius: 50px;
-     margin: 0 10px;
-     border: 1px solid transparent;
-     
-}
-.meta-quest-right .owl-theme .owl-dots .owl-dot.active span,
- .meta-quest-right .owl-theme .owl-dots .owl-dot:hover span{
-    background-color: #fff;
-    opacity: 0.5;
-    width: 12px !important;
-    height: 12px !important;
-    margin: 0 10px;
-    border: 1px solid transparent;
- }
- .meta-quest-right .owl-theme .owl-dots{
-    width: 100%;
-    position:absolute;
-    bottom: -5%;
-    left: 48%;
-    transform: translate(-50%, -50%);
- 
-}
-.meta-quest-right .owl-theme .owl-nav{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 100%;
-    margin-top: 0 !important;
-}
-.meta-quest-right .owl-theme .owl-nav .owl-prev{
-    position: absolute;
-    left: 0;
-    display: block;
-}
-.meta-quest-right .owl-theme .owl-nav .owl-next{
-    position: absolute;
-    right: 0;
-    display: block;
-}
-.meta-quest-right .owl-theme .owl-nav button{
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    background-color: red !important;
-    color: white !important;
-}
-/* //////* ////detail banner section custom style css end */ 
 
 
 
@@ -882,3 +721,283 @@
     font-family: 'Gontserrat-Regular';
 }
 /* //////* ////SUB DOMAIN section custom style css end */  
+
+
+/* //////* ////detail form section custom style css start */ 
+.from-input-height{
+    /* width: 100%; */
+    height: 65px !important;
+}
+.form-label-text{
+    font-size: 30px;
+    font-family: 'Gontserrat-Regular';
+    color: #A1A1A1;
+    line-height: 40px;
+}
+.flex-content input{
+    border: 1px solid #979797;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 5px 15px;
+}
+.flex-textarea{
+    width: 100%;  
+}
+.commit-title-h3{
+    margin-top: 44px;
+    margin-bottom: 14px;
+    font-size: 30px;
+    font-family: 'Gontserrat-Regular';
+    color: #A1A1A1;
+    line-height: 40px;
+}
+.flex-textarea textarea {
+   
+    width: 100% !important;
+    padding: 0.7rem;
+    border: 1px solid gray;
+    
+
+}
+.form-button{
+    margin-top: 51px;
+    text-align: end;
+}
+.form-button a{
+    width: 100%;
+    max-width: 228px;
+    font-size:20px;
+    background-color: #CC172D;
+    color: #fff;
+    display: inline-block;
+    padding:16px 0;
+    border-radius: 3px;
+    font-family: 'Gontserrat-Regular';
+    text-align: center;
+    margin-left: auto;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.form-button a:hover{
+    /* transition: all 0.5s ease; */
+    background-color: #d4192fc4;
+}
+.detail-form-title{
+    font-size: 60px;
+    color:#606060;
+    line-height: 80px;
+    font-family: 'Gontserrat-Bold';
+}
+@media(max-width:992px){
+    
+    .from-input-height{
+        /* width: 100%; */
+        height: 45px !important;
+    }
+    .commit-title-h3{
+        margin-top: 13px;
+        font-size: 20px;
+    }
+    .form-label-text{
+        font-size: 14px;
+    }
+    .form-button{
+        margin-top: 30px;
+        /* margin-bottom: 16px; */
+    }
+    .form-button a{
+        max-width: 178px;
+        padding: 8px 0;
+        font-size: 17px;
+    }
+}
+@media(max-width:576px){
+    .form-button{
+        margin-top: 5px;
+        margin-bottom: 16px;
+    }
+    .form-button a{
+        max-width: 148px ;
+    }
+    .detail-form-title{
+        font-size: 20px;
+        color:#606060;
+        line-height: 27px;
+        font-family: 'Gontserrat-Bold';
+    }
+}
+/* //////* ////detail form section custom style css end */ 
+
+
+
+/* //////* ////textnomial form section custom style css start */ 
+
+
+.textnomial-h2{
+    font-size: 30px;
+    line-height: 40px;
+    color: #FF0000;
+    font-family: 'Gontserrat-Regular'
+}
+.textnomial-container{
+    margin-top:30.9px;
+    /* border: 1px solid red; */
+    padding-left: 22px;
+    position: relative;
+}
+.textnomial-verticle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 84%;
+    width: 5px;
+    background-color: #707070;
+    opacity: 26%;
+}
+.textnomial-verticle:before,
+.textnomial-verticle:after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: gray;
+}
+.textnomial-verticle:before{
+    top: 16%;
+    left: -7px;
+}
+.textnomial-verticle:after{
+    bottom: 0%;
+    left: -7px;  
+}
+.oscar-mt{
+    padding-top: 100px;
+}
+.textnomial-oscar-center{
+    padding-left: 86px;
+    position: relative;
+}
+
+.textnomial-verticle-center{
+    position: absolute;
+    top: -18px;
+    /* top: -9%; */
+    left: 47px;
+    left: 7%;
+    height: 59%;
+    width: 5px;
+    background-color: #707070;
+    opacity: 26%;
+
+}
+.textnomial-verticle-center:before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: gray;
+    bottom: 0px;
+    left:  -7px;
+}
+.oscar-title-h3{
+    font-size: 20px;
+    line-height: 20px;
+    color: #FF0000;
+    font-family: 'Gontserrat-Regular'
+}
+.oscar-title-p{
+    font-size: 16px;
+    line-height: 21px;
+    color: #2B2B2B;
+    font-family: 'Gontserrat-Regular'
+}
+.oscar-icon-container{
+    text-align: end;
+}
+.oscar-icon-a span,
+.oscar-icon-a2 span{
+    font-size: 20px;
+    color:#ACBBBB ;
+    font-family: 'Gontserrat-Regular';
+    line-height: 27px;
+    display: inline-block;
+}
+.oscar-icon-a:hover span,
+.oscar-icon-a2:hover span{
+    transition: all 0.3s ease-in;
+    color: #CC172D;
+}
+.oscar-icon-a2{
+    margin-left: 25px;
+}
+
+
+@media (max-width:576px){
+    .textnomial-container{
+        margin-top: 6px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .textnomial-verticle{
+        left: 11px;
+    }
+    
+    .textnomial-oscar:hover,
+    .textnomial-oscar-center:hover{
+        transition: all 0.5s ease-in-out;
+        background-color: #F7F7F7;
+    }
+    .textnomial-oscar-center{
+        /* background-color: #ca9292; */
+        padding-left: 0;
+        margin-left: 21px;
+    }
+    
+    .oscar-all-padding{
+        padding:6.5px 15px 6.5px 7px ;
+    }
+    .textnomial-verticle-center{
+        display: none;
+    }
+    .oscar-mt{
+        padding-top: 0px;
+    }
+    .oscar-title-h3{
+        font-size: 10px;
+        line-height: 14px;
+        position: relative;
+    }
+    .oscar-title-p{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .oscar-icon-a span,
+     .oscar-icon-a2 span{
+        font-size: 8px;
+    
+    }
+   
+
+    .textnomial-verticle:before,
+    .textnomial-verticle:after{
+        width: 7px;
+        height: 7px;
+        left: -2px;
+    }
+    .textnomial-verticle{
+        width: 2px;
+    }
+    .textnomial-verticle:before{
+        top: 3%;
+        left: -3px;
+    }
+    .textnomial-verticle:after{
+        bottom: 15%;
+        left: -3px;  
+    }
+}
+@media (max-width:992px){}
+/* //////* ////textnomial form section custom style css end */ 

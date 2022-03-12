@@ -54,6 +54,20 @@
     margin-bottom: 40px;
 }
 
+@media (max-width:992px){
+    .banner-left-line{
+        margin-top: 40px !important;
+    }
+}
+@media (max-width:576px){
+    .banner-left-line{
+        margin-top: 30px !important;
+      }
+    .meta-quest-title-mt{
+        margin-bottom: 10px;
+    }
+}
+
 .meta-quest-title,
 .sub-domain-title{
     /* font-size: 60px; */
@@ -62,4 +76,18 @@
     color: #606060;
     font-family: 'Gontserrat-Bold';
     
+}
+.meta-owl-carousel{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+@media(max-width:992px){
+    .meta-quest-title{
+        font-size: 41px;
+        line-height: 45px;
+    }
+    .meta-owl-carousel{
+        padding-left: 1.50rem;
+        padding-right: 1.50rem;
+    }
 }

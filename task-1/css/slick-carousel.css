@@ -400,3 +400,241 @@ height: 100%;
 } */
 
 
+/* //////* ////meta-quest  section custom style css start */ 
+
+
+.meta-quest{
+  padding-top: 63.3px !important;
+  padding-bottom:44.7px !important;
+  background-color: #FAFAFA;
+}
+
+.meta-owl-bg-container{
+  padding: 0.5rem;
+  padding-bottom: 29px;
+  background-color: red;
+}
+.meta-owl-bg-img{
+  width: 100%;
+  height: 364px;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  
+}
+/* .meta-owl-bg-img:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+} */
+.meta-owl-bg-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.meta-owl-right-content{
+  padding-left: 8px;
+}
+.meta-owl-h1{
+  color: #fff;
+  font-size: 60px;
+  line-height: 80px;
+  font-family: 'Gontserrat-Bold';
+  margin-top: 8px;
+}
+
+
+.meta-owl-p{
+  font-size:14px;
+  color: #fff;
+  line-height: 19px;
+  font-family: 'Gontserrat-Regular';
+}
+.meta-owl-right-button{
+  width: 100%;
+  max-width: 220px !important;
+
+  height: 54px;
+  background-color: #fff;
+  font-size:20px;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 54px;
+  
+  /* transition: all 0.3s ease; */
+}
+.meta-owl-right-button a,
+.owl-btn-2 a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  color: #CC172D;
+  font-family: 'Gontserrat-Regular';
+}
+@media(max-width:992px){
+  .meta-owl-right-button {
+    /* font-size: 17px; */
+    height: 40px;
+    line-height: 40px;
+  }
+  .meta-owl-right-button a{
+    font-size: 17px;
+  }
+}
+@media(max-width:576px){
+ 
+  .meta-owl-bg-img{
+    height: 170px;
+  }
+  .meta-owl-right-button {
+    font-size: 15px;
+    /* height: 34px; */
+    /* line-height: 34px; */
+  }
+  .meta-owl-right-button a{
+    font-size: 15px;
+  }
+  .meta-owl-h1{
+  color: #fff;
+  font-size: 35px;
+  line-height: 47px;
+  font-family: 'Gontserrat-Bold';
+  margin-top: 8px;
+   }
+   .meta-owl-p{
+     font-size: 7px;
+     margin-bottom: 0.6rem;
+   }
+}
+.owl-btn-2{
+  margin-left: 1rem;
+  background-color: transparent;
+  /* margin-left: auto;
+  margin-right: auto; */
+ 
+}
+
+.owl-btn-2 span{
+  display: inline-block; 
+  width: 26px;
+  height: 22px;
+  
+}
+.owl-btn-2 a{
+  color: #EFEFEF;
+  opacity: 57%;
+  border-radius: 5px;
+  }
+  .owl-btn-2 a:hover{
+    background-color: white;
+    color: red;
+    opacity: 1;
+  }
+  .owl-btn-2 a:hover svg{
+    fill: red;
+  }
+  .owl-btn-2
+  .owl-btn-2 span{
+      display: inline-block;
+      margin-right: 1rem;
+  }
+ 
+.owl-btn-2 span svg{
+  width: 100%;
+  height: 100%;
+  fill: #fff;
+  position: relative;
+  left: 0;
+  bottom: -5px;
+}
+/* .owl-span-22{
+  display: block;
+  width: 100%;
+
+} */
+
+
+/* .owl-btn-2:hover{
+  background-color: #fff;
+}
+.owl-btn-2 a:hover{
+  color: #CC172D;
+}   */
+
+.meta-quest-right .owl-theme .owl-dots button{
+  outline: none;
+  border: 1px solid transparent !important;
+  
+}
+.meta-quest-right .owl-theme .owl-dots .owl-dot span{
+  width: 12px;
+   height: 12px;
+   background-color: #FFFFFF;
+   opacity: 1;
+   border-radius: 50px;
+   margin: 0 10px;
+   border: 1px solid transparent;
+   
+}
+.meta-quest-right .owl-theme .owl-dots .owl-dot.active span,
+.meta-quest-right .owl-theme .owl-dots .owl-dot:hover span{
+  background-color: #fff;
+  opacity: 0.5;
+  width: 12px !important;
+  height: 12px !important;
+  margin: 0 10px;
+  border: 1px solid transparent;
+}
+.meta-quest-right .owl-theme .owl-dots{
+  width: 100%;
+  position:absolute;
+  bottom: -5%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+
+}
+.meta-quest-right .owl-theme .owl-nav{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  margin-top: 0 !important;
+}
+.meta-quest-right .owl-theme .owl-nav .owl-prev{
+  position: absolute;
+  left: 0;
+  display: block;
+}
+.meta-quest-right .owl-theme .owl-nav .owl-next{
+  position: absolute;
+  right: 0;
+  display: block;
+}
+.meta-quest-right .owl-theme .owl-nav button{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: red !important;
+  color: white !important;
+}
+
+@media (max-width:992px){
+  .meta-quest-right .owl-theme .owl-nav .owl-prev{
+    left: -13px;
+  }
+  .meta-quest-right .owl-theme .owl-nav .owl-next{
+    right: -13px;
+  }
+}
+/* //////* ////meta-quest  section custom style css end */  
