@@ -294,18 +294,22 @@
     color: #707070;
 }
 
-@media (max-width: 567.98px) {
+@media (max-width:1200px){
+    .subscribe-h1{
+        font-size: 40px;
+    }
+}
+@media (max-width:992px){
+    .subscribe-h1{
+        font-size: 30px;
+    }
+}
+@media (max-width:576px){
     .subscribe-h1{
         font-size: 21px;
         color: #848484;
         line-height: 41px;
     }
-    .subscribe-bg-color{
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-}
-@media (max-width:576px){
     .subscribe-bg-color{
         padding-left: 0rem;
         padding-right: 0rem;
@@ -595,13 +599,7 @@
         padding-bottom: 20.5px !important;
     }
 }
-.detail-banner-bg img{
-    background-size: cover;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-}
+
 .detail-small-right-banner{
     width: 100%;
     height: 544px;
@@ -626,9 +624,7 @@
     font-family: 'Gontserrat-Bold';
     color: #E8E8E8;
 }
-.banner-left-top{
-    padding-top: 56px;
-}
+
 .social-left-text{
     display: inline-block;
     font-size: 20px;
