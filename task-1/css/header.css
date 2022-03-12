@@ -329,14 +329,16 @@
     }
 }
 
-.about-bg-img{
+.about-bg-img,
+.contact-bg-img{
     width: 100%;
     height: 525px;
     position: relative;
     z-index: 1;
     background-color: silver;
 }
-.about-bg-img:before{
+.about-bg-img:before,
+.contact-bg-img:before{
     content: '';
     position: absolute;
     top: 0;
@@ -345,75 +347,115 @@
     height: 100%;
     /* background-color: rgba(0, 0, 0, 0.4); */
     z-index: 2;
-    background-image: url(../../vendor/img/about-opacity-bg.png);
     background-size: cover;
     object-fit: cover;
   
 }
-.about-bg-img img{
+.about-bg-img:before{
+    background-image: url(../../vendor/img/about-opacity-bg.png);
+}
+.contact-bg-img:before{
+    background-image: url(../../vendor/img/about-opacity-bg.png);
+}
+.about-bg-img img,
+.contact-bg-img img{
     background-size: cover;
     object-fit: cover;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
 }
-.about-header-content{
+.about-header-content,
+.contact-header-content{
     position: absolute;
     bottom: 28%;
     left: 10%;
     z-index: 4;
 }
-.about-header-title-h1{
+.about-header-title-h1,
+.contact-header-title-h1{
     font-size:90px;
     color: #fff;
     font-family: 'Gontserrat-Bold';
 
 }
-.about-banner-bg{
+.about-banner-bg,
+.contact-banner-bg{
     width: 100%;
     height: 170px;
 }
-.about-banner-bg img{
+.about-banner-bg img,
+.contact-banner-bg img{
     background-size: cover;
     object-fit: cover;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
 }
-.about-banner-line-text{
+.about-banner-line-text,
+.contact-banner-line-text{
     margin-top: 54px;
 }
 @media (max-width:992px){
-    .about-header-title-h1{
+    .about-header-title-h1,
+    .contact-header-title-h1{
         font-size: 80px;
     }
 }
 @media (max-width:768px){
-    .about-bg-img{
+    .about-bg-img,
+    .contact-bg-img{
         height: 300px;
     }
-    .about-header-title-h1{
+    .about-header-title-h1,
+    .contact-header-title-h1{
         font-size: 60px;
     }
-    .about-header-content{
+    .about-header-content,
+    .contact-header-content{
         left: 7%;
         bottom: 18%;
     }
 }
 @media (max-width:576px){
-    .about-bg-img{
+    .about-bg-img,
+    .contact-bg-img{
         height: 210px;
     }
-    .about-header-title-h1{
+    .about-header-title-h1,
+    .contact-header-title-h1{
         font-size: 40px;
     }
-    .about-header-content{
+    .about-header-content,
+    .contact-header-content{
         left: 3%;
     }
     @media (max-width:280px){
-        .about-header-title-h1{
+        .about-header-content,
+        .contact-header-content{
             font-size: 32px;
         }
     }
 }
 /* //////About PAGE TOP Header section  end */
+
+
+
+/* //////Contact PAGE TOP Header section  start */
+.write-h1{
+    font-size:80px;
+    color:#9B9B9B ;
+    font-family: 'Gontserrat-Bold';
+    margin-bottom: 10px;
+}
+@media (max-width:768px){
+    .write-h1{
+        font-size: 60px;
+    }
+}
+@media (max-width:576px){
+    .write-h1{
+        font-size: 35px;
+    }
+}
+/* //////Contact PAGE TOP Header section  end */
