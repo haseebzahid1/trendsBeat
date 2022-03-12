@@ -191,7 +191,7 @@
     }
 }
 @media (max-width: 567.98px) {
-    .social-ml{
+    /* .social-ml{
         margin-left: 27px;
     }
     .footer-padding{
@@ -200,11 +200,41 @@
     .footer-title-margin {
         margin-top: 34px;
         margin-bottom: 44px;
-    }
+    } */
 }
 
 
-
+@media (max-width:576px){
+    .footer-logo{
+        max-width: 251px;
+    }
+    .footer-nav-title{
+        font-size: 20px;
+    }
+    .footer-description {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .social-ml{
+        margin-left: 27px;
+    }
+    .footer-padding{
+        padding-top: 34px;
+    }
+    .footer-title-margin {
+        margin-top: 14px;
+        margin-bottom: 24px;
+    }
+    .footer_google_play, .footer_app_store{
+        max-width: 151px !important;
+        
+    }
+    .footer_google_play, .footer_app_store svg{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
 
 
 /* ////banner section custom style css start */ 
@@ -273,6 +303,12 @@
     .subscribe-bg-color{
         padding-left: 3rem;
         padding-right: 3rem;
+    }
+}
+@media (max-width:576px){
+    .subscribe-bg-color{
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
 }
 /* ////Subscribe section custom style css end */ 
@@ -553,6 +589,12 @@
     padding-bottom: 74.5px !important;
     position: relative;
 }
+@media (max-width:576px){
+    .detail-destop-screen{
+        padding-top: 34px !important;
+        padding-bottom: 20.5px !important;
+    }
+}
 .detail-banner-bg img{
     background-size: cover;
     object-fit: cover;
@@ -607,7 +649,11 @@
 }
 .detail-right-icon:first-child{
     margin-right: 34px ;
-    margin-left: 0;
+}
+@media (max-width:768px){
+    .detail-right-icon-none {
+        display: none;
+    }
 }
 @media (max-width:1040px){
     .social-left-text{
@@ -624,6 +670,32 @@
     }
     
 }
+@media (max-width:992px){
+    .detail-small-right-banner{
+        height: 296px;
+    }
+    .social-left-text{
+        font-size: 15px;
+    }
+    .detail-right-icon{
+        width: 22px;
+        height: 21px;
+    }
+}
+@media (max-width:576px){
+    .social-left-text{
+        font-size: 10px;
+    }
+    .detail-right-icon{
+        width: 15px;
+        height: 13px;
+        margin-left: 5px !important;
+    }
+    
+    .detail-small-right-banner{
+        height: 180px;
+    }
+}
 
 .detail-right-icon svg{
     width: 100%;
@@ -636,6 +708,11 @@
 .detail-banner-line-text{
     margin-top: 60.5px;
 }
+@media (max-width:576px){
+    .detail-banner-line-text{
+        margin-top: 37.5px;
+    }
+}
 
 
 
@@ -646,6 +723,12 @@
 .detail-sub-domain{
     padding-top:111px !important;
 
+}
+@media (max-width:576px){
+    .detail-sub-domain{
+        padding-top:38px !important;
+    
+    }
 }
 .sub-right-bg{
     width: 100%;
@@ -661,6 +744,7 @@
 .sub-domain-title{
     margin-bottom:79px ;
 }
+
 .sub-domain-left-bg{
     width: 100%;
     height: 581px;
@@ -685,13 +769,13 @@
     padding-right: 30px;
     padding-bottom: 26px;
     display: flex;
+    /* flex-wrap: wrap; */
     margin-top: 82.5px;
     margin-bottom: 73px;
     border-radius: 10px;
 }
 .sub-profile-bg{
-    width: 100%;
-    max-width: 114px;
+    width: 114px !important;
     height: 164px;
 }
 .sub-profile-bg img{
@@ -699,8 +783,10 @@
     height: 100%;
     object-fit: cover;
 }
+
 .profile-right-content{
     padding-left: 7px;
+    width: 100%;
 }
 .sub-profile-title{
     font-size: 40px;
@@ -713,12 +799,57 @@
     line-height: 12px;
     color: #fff;
     font-family: 'Gontserrat-Regular';
+    margin-bottom: 7px;
 }
 .sub-profile-p{
     font-size: 16px;
     line-height: 21px;
     color: #fff;
     font-family: 'Gontserrat-Regular';
+    margin-bottom: 0;
+}
+
+@media (max-width:768px){
+    .sub-domain-title{
+        margin-bottom:0px ;
+        padding-left: 48px;
+    }
+    .sub-domain-left-bg{
+        margin-top: 46px;
+        margin-bottom: 48px;
+    }
+    .sub-domain-left-bg{
+        height: 380px;
+    }
+    .sub-profile-flex{
+      padding: 7px 10px 7px 7px;
+    }
+}
+@media (max-width:576px){
+    .sub-profile-bg{
+        width: 71px;
+        height: 103px;
+    }
+    .sub-domain-left-bg{
+        height: 180px;
+        margin-top: 33px;
+        margin-bottom: 33px;
+    }
+    .sub-profile-title{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .sub-profile-title2{
+        font-size: 10px;
+    }
+    .sub-profile-p{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .sub-profile-flex{
+        margin-top: 46.8px;
+        margin-bottom: 46px;
+    }
 }
 /* //////* ////SUB DOMAIN section custom style css end */  
 
@@ -825,6 +956,7 @@
         color:#606060;
         line-height: 27px;
         font-family: 'Gontserrat-Bold';
+        padding-left: 32px;
     }
 }
 /* //////* ////detail form section custom style css end */ 
@@ -838,7 +970,13 @@
     font-size: 30px;
     line-height: 40px;
     color: #FF0000;
-    font-family: 'Gontserrat-Regular'
+    font-family: 'Gontserrat-Regular';
+    margin-top: 60px;
+}
+@media (max-width:576px){
+    .textnomial-h2{
+        margin-top: 46px;
+    }
 }
 .textnomial-container{
     margin-top:30.9px;

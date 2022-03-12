@@ -265,9 +265,9 @@
     padding-left:50px ;
 }
 @media(max-width:1200px){
-    etail-header-title-h1{
-        font-size: 85px;
-        line-height: 102px;
+    .detail-header-title-h1{
+        font-size: 70px;
+        line-height: 90px;
     }
    
 }
