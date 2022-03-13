@@ -423,7 +423,7 @@
     top: 0;
     right: 0;
     background-color: rgba(0,0,0, 0.5) !important;
-    z-index: 900;
+    z-index: 5555;
     opacity: 0;
     visibility: hidden;
     transition: all .3s;
@@ -524,7 +524,27 @@
    border-radius: 50% !important;
 }
 /* //vedio popup end */
-
+@media (max-width:992px){
+    .popup-full-container .vedio-popup-overlay{
+        width: 100%;
+        max-width: 66%;
+        height: 410px;
+    }
+    .closee{
+        width: 30px;
+        height: 30px;
+        top: 1rem;
+        right: 1rem;
+    }
+    .popup-vedio-buttone a{
+        width: 37px;
+        height: 39px;
+    }
+    /* .vedio-title-trailer{
+        font-size: 20px;
+        font-family: 'Gontserrat-Bold';
+    } */
+}
 @media (max-width:768px){
     .vedio-right-d-none{
         display: none !important;
@@ -559,24 +579,24 @@
         width: 37px;
         height: 39px;
     }
-    .vedio-title-trailer{
+    /* .vedio-title-trailer{
         font-size: 15px;
         font-family: 'Gontserrat-Regular';
-    }
+    } */
     .popup-full-container .vedio-popup-overlay{
         width: 100%;
         max-width: 80%;
         height: 410px;
     }
-    .popup-vedio-buttone a{
+    /* .popup-vedio-buttone a{
         width: 37px;
         height: 39px;
-    }
+    } */
     .closee{
-        width: 52px;
+        /* width: 52px;
         height: 28px;
         top: 1rem;
-        right: 1rem;
+        right: 1rem; */
     }
 }
 @media (max-width:576px){
