@@ -241,6 +241,17 @@
     padding-bottom:78px ;
     position: relative;
 }
+@media (max-width:768px){
+    .banner-container{
+        padding-top: 22px;
+    }
+}
+@media (max-width:576px){
+    .banner-container{
+        padding-top: 22px;
+        padding-bottom: 44px;
+    }
+}
 
 .banner-inner{
     width: 100%;
@@ -661,7 +672,7 @@
         display: none;
     }
 }
-@media (max-width:1040px){
+@media (max-width:1200px){
     .social-left-text{
         font-size: 19px;
     }

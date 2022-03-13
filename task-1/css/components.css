@@ -1,3 +1,20 @@
+.team-max-width{
+    width: 100%;
+    max-width: 1520px !important;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #606060; */
+    z-index: 333;
+}
+.max-vertical-line{
+    /* position: relative; */
+}
+@media (max-width:992px){
+    
+}
+.unstyle a{
+    color: #fff;
+}
 .mysvg{
     position: relative;
     bottom: 0;
@@ -25,6 +42,7 @@
     width: 72px;
     background-color: #CC172D;
     height: 100%;
+    /* z-index: -1; */
 }
 .vertical-1{
     left:0;
@@ -43,6 +61,7 @@
     padding-bottom: 145px !important;
     
   }
+  
   .detail-bg-0{
     background-color: transparent !important;
   }
@@ -55,9 +74,7 @@
 
 
 
-
-
-@media (max-width:768px){
+@media (max-width:992px){
     .vertical-1,
     .vertical-2{
         display: none;
@@ -85,6 +102,9 @@
     }
     .banner-left-top{
         padding-top: 36px;
+    }
+    .feature_blogs-padding{
+        padding-bottom: 90px !important;
     }
 }
 @media (max-width:576px){
@@ -339,28 +359,14 @@
     .form-label-text{
         font-size: 14px;
     }
-    .form-button{
-        /* margin-top: 30px; */
-        /* margin-bottom: 16px; */
-    }
-    /* .form-button a{
-        max-width: 178px;
-        padding: 8px 0;
-        font-size: 17px;
-    } */
+   
     .detail-form-title{
         padding-left: 42px;
         font-size: 40px;
     }
 }
 @media(max-width:576px){
-    /* .form-button{
-        margin-top: 5px;
-        margin-bottom: 16px;
-    } */
-    /* .form-button a{
-        max-width: 148px ;
-    } */
+  
     .detail-form-title{
         font-size: 20px;
         color:#606060;
