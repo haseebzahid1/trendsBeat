@@ -585,10 +585,23 @@
     width: 100%;
     height: 160px;
 }
+.detail-banner-bg img{
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
 .detail-destop-screen{
     padding-top: 159px !important;
     padding-bottom: 74.5px !important;
     position: relative;
+}
+@media (max-width:992px){
+    .detail-destop-screen{
+        padding-top: 70px !important;
+        /* padding-bottom: 74.5px !important; */
+    }
 }
 @media (max-width:576px){
     .detail-destop-screen{
@@ -717,9 +730,15 @@
     padding-top:111px !important;
 
 }
-@media (max-width:576px){
+@media (max-width:768px){
     .detail-sub-domain{
         padding-top:38px !important;
+    
+    }
+}
+@media (max-width:576px){
+    .detail-sub-domain{
+        padding-top:30px !important;
     
     }
 }

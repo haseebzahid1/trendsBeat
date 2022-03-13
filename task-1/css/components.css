@@ -83,6 +83,9 @@
         margin-top: 40px !important;
         height: 7px;
     }
+    .banner-left-top{
+        padding-top: 36px;
+    }
 }
 @media (max-width:576px){
     .banner-left-line{
@@ -95,9 +98,9 @@
     .feature_blogs-padding{
         padding-bottom: 45px !important;
     }
-    .banner-left-top{
+    /* .banner-left-top{
         padding-top: 36px;
-    }
+    } */
     
 }
 
@@ -117,13 +120,9 @@
 .blog-owl-caorousel{
     margin-top: 60px;
   }
-@media (max-width:768px){
+  @media(max-width:992px){
+    .meta-quest-title,
     .sub-domain-title{
-        font-size:38px ;
-    }
-}
-@media(max-width:992px){
-    .meta-quest-title{
         font-size: 41px;
         /* line-height: 45px; */
     }
@@ -132,6 +131,15 @@
         padding-right: 1.50rem;
     }
 }
+@media (max-width:768px){
+    .sub-domain-title,.meta-quest-title{
+        font-size:36px ;
+    }
+    /* .meta-quest-title{
+        font-size: 36px;
+    } */
+}
+
 @media(max-width:576px){
     .sub-domain-title,
     .meta-quest-title{
@@ -222,7 +230,7 @@
     font-size: 26px;
     font-family: 'Gontserrat-Regular';
 }
-.contact-button{
+.contact-button-2{
     margin-top: 74px;
 }
 
@@ -332,27 +340,27 @@
         font-size: 14px;
     }
     .form-button{
-        margin-top: 30px;
+        /* margin-top: 30px; */
         /* margin-bottom: 16px; */
     }
-    .form-button a{
+    /* .form-button a{
         max-width: 178px;
         padding: 8px 0;
         font-size: 17px;
-    }
+    } */
     .detail-form-title{
         padding-left: 42px;
         font-size: 40px;
     }
 }
 @media(max-width:576px){
-    .form-button{
+    /* .form-button{
         margin-top: 5px;
         margin-bottom: 16px;
-    }
-    .form-button a{
+    } */
+    /* .form-button a{
         max-width: 148px ;
-    }
+    } */
     .detail-form-title{
         font-size: 20px;
         color:#606060;
