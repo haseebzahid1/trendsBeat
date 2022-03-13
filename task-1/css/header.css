@@ -317,15 +317,23 @@
 
 /* //////About PAGE TOP Header section start */
 
-.about-destop-screen{
+.about-destop-screen,
+.contact-destop-screen{
     padding-top: 139px !important;
     padding-bottom: 74.5px !important;
     position: relative;
 }
+@media (max-width:992px){
+    .contact-destop-screen{ 
+        padding-top: 70px !important; 
+         padding-bottom: 20.5px !important;
+    }
+}
 @media (max-width:576px){
-    .about-destop-screen{ 
+    .about-destop-screen,
+    .contact-destop-screen{ 
         padding-top: 34px !important;
-        padding-bottom: 20.5px !important;
+        /* padding-bottom: 0px !important; */
     }
 }
 
@@ -441,21 +449,3 @@
 
 
 
-/* //////Contact PAGE TOP Header section  start */
-.write-h1{
-    font-size:80px;
-    color:#9B9B9B ;
-    font-family: 'Gontserrat-Bold';
-    margin-bottom: 10px;
-}
-@media (max-width:768px){
-    .write-h1{
-        font-size: 60px;
-    }
-}
-@media (max-width:576px){
-    .write-h1{
-        font-size: 35px;
-    }
-}
-/* //////Contact PAGE TOP Header section  end */

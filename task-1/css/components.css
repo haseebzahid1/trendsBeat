@@ -95,6 +95,10 @@
     .feature_blogs-padding{
         padding-bottom: 45px !important;
     }
+    .banner-left-top{
+        padding-top: 36px;
+    }
+    
 }
 
 .meta-quest-title,
@@ -150,8 +154,11 @@
 
 /* //////* ////detail form section custom style css start */ 
 .contact-form{
-    margin-top:110px;
+    margin-top:35px;
     margin-bottom: 91px;
+}
+.contact-form-h1-mb{
+    margin-bottom: 42px;
 }
 .from-input-height{
     /* width: 100%; */
@@ -170,6 +177,19 @@
     height: 100%;
     padding: 5px 15px;
 }
+.contact-form-select{
+    height: 65px;
+    width: 100%;
+    /* color: black; */
+    display: block;
+    border: 1px solid #ced4da!important;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #6C757D;
+}
 .flex-textarea{
     width: 100%;  
 }
@@ -187,7 +207,20 @@
     padding: 0.7rem;
     border: 1px solid gray;
     
-
+}
+.form-check-label-my{
+    display: flex;
+    align-items: center;
+}
+.form-check-label-my input{
+    width: 40px;
+    height: 40px;
+    margin-right:30px;
+}
+.form-check-label-my label{
+    color: #8B8B8B;
+    font-size: 26px;
+    font-family: 'Gontserrat-Regular';
 }
 .contact-button{
     margin-top: 74px;
@@ -222,6 +255,68 @@
 .form-col-mt{
     margin-top: 23px;
 }
+/* //////Contact PAGE TOP Header section  start */
+.write-h1{
+    font-size:80px;
+    color:#9B9B9B ;
+    font-family: 'Gontserrat-Bold';
+    margin-bottom: 10px;
+}
+@media (max-width:992px){
+    .write-h1{
+        font-size: 40px;
+    }
+    .contact-form-h1-mb{
+        margin-bottom: 16px;
+    }
+    .contact-button a{
+        font-size: 19px;
+        max-width: 170px;
+        padding: 9px 0px;
+    }
+    .contact-button{
+        margin-top: 50px;
+    }
+    .form-check-label-my label{
+        font-size: 20px;
+    }
+    .form-check-label-my input{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width:576px){
+    .write-h1{
+        font-size: 25px;
+    }
+    .contact-form{
+        margin-top:20px;
+        margin-bottom: 40px;
+    }
+    .form-col-mt-mobile{
+        margin-top: 12px;
+    }
+    .form-col-mt{
+        margin-top: 12px;
+    }
+    .contact-button{
+        margin-top: 30px;
+    }
+    .contact-button a{
+        font-size: 17px;
+        max-width: 135px;
+        padding: 8px 0px;
+    }
+    .form-check-label-my label{
+        font-size: 16px;
+    }
+    .form-check-label-my input{
+        width: 18px;
+        height: 18px;
+    }
+    
+}
+/* //////Contact PAGE TOP Header section  end */
 
 @media(max-width:992px){
     
@@ -245,6 +340,10 @@
         padding: 8px 0;
         font-size: 17px;
     }
+    .detail-form-title{
+        padding-left: 42px;
+        font-size: 40px;
+    }
 }
 @media(max-width:576px){
     .form-button{
@@ -259,7 +358,7 @@
         color:#606060;
         line-height: 27px;
         font-family: 'Gontserrat-Bold';
-        padding-left: 32px;
+        
     }
     .form-col-mt-mobile{
         margin-top: 23px;
