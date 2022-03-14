@@ -129,9 +129,7 @@ a, a:active, a:focus, a:hover {
     display: block;
 }
 
-a{
-    /* color: #fff; */
-}
+
 
 .bottom-link a:hover{
     color: #fff;
