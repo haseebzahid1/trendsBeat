@@ -30,23 +30,30 @@
 }
 .product-reviews{
     background-color: #100F0F;
+    position: relative;
 }
 .product-reviews-padding{
     padding-top: 94px !important;
     padding-bottom: 94px !important;
     background-color: #100F0F;
+    position: relative;
 }
 
 .swiper-img-container{
     /* width: 100% ; */
-    max-width: 414px;
-    height: 567px;
+    /* max-width: 414px; */
+    /* height: 567px; */
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
+    margin-right: 30px;
 }
 
-
+.pro-sub-2{
+  position: absolute;
+  top: 38%;
+  left: 6%
+}
 .swiper-img-container img{
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,9 +65,9 @@
 }
 .swiper-title,
 .swiper-sub_title{
-    font-size: 80px;
-    font-family: 'Gontserrat-Bold';
-    line-height: 80px;
+    font-size: 62px;
+    /* font-family: 'Gontserrat-Bold'; */
+    line-height: 62px;
 }
 .swiper-title{
     color: #fff;
@@ -74,16 +81,16 @@
   @media (max-width: 1250px) {
     .swiper-title,
     .swiper-sub_title{
-    font-size: 70px;
-     line-height: 70px;
+    /* font-size: 70px;
+     line-height: 70px; */
     } 
   }
 
   @media (max-width: 976px) {
     .swiper-title,
     .swiper-sub_title{
-      font-size: 60px;
-      line-height: 60px;
+      /* font-size: 60px;
+      line-height: 60px; */
     } 
     .swiper-img-container{
         /* max-width: 480px; */
@@ -93,8 +100,8 @@
   @media (max-width: 767px) {
     .swiper-title,
     .swiper-sub_title{
-     font-size: 46px;
-     line-height: 46px;
+     /* font-size: 46px;
+     line-height: 46px; */
     } 
   }
   @media (max-width: 576px) {
@@ -110,7 +117,27 @@
     }
   }
  
+  .product-review{
+    background-color: #100F0F;
+    overflow: hidden;
+}
+.product-heading{
+    color: #ffffff;
+    font-size: 62px;
+}
+.product-text{
+    color: #CC172D;
+}
 
+.pro-sub{
+    position: absolute;
+    top: 38%;
+    left: 10%;   
+}
+
+.product-img{
+    margin-right: 30px;
+}
  
 /* ////feature blogs section custom style css start */ 
 
@@ -126,25 +153,29 @@
 }
 
 .feature_blogs-container{
-  width: 100%;
-  max-width: 674px;
-  height: 467px;
-  position: relative;
-  border-radius: 15px;
+ 
+  margin-right: 30px !important;
  
 }
+.feature_blogs{
+  width: 100%;
+  /* max-width: 674px; */
+  /* height: 467px; */
+  position: relative;
+  border-radius: 15px;
+}
 @media (max-width: 576px){
-  .feature_blogs-container{
+  /* .feature_blogs-container{
       width:100%;
       height: 157px;
-  }
+  } */
   .blog-title,
 .blog-sub-title{
   font-size: 20px;
   line-height: 27px;
 }
 }
-.feature_blogs-container:before{
+.feature_blogs:before{
 content: '';
 position: absolute;
 top: 0;
@@ -156,7 +187,7 @@ border-radius: 15px;
 }
 .feature_blogs-img{
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   position: relative;
 }
 
@@ -237,26 +268,28 @@ border-radius: 15px;
   }
 }
 .feature_blog-h4{
-  font-size: 20px;
-  line-height: 27px;
-  font-family: 'Gontserrat-Regular';
+  font-size: 18px;
+  /* line-height: 27px; */
+  /* font-family: 'Gontserrat-Regular'; */
   color: #fff;
+  font-weight: 400;
 }
 
-@media (max-width: 576px){
+/* @media (max-width: 576px){
   .feature_blog-h4{
       font-size: 8px;
       line-height: 0px;
-      /* line-height: 11px; */
+
   }
-}
+} */
 .feature_blog-h1{
-  font-size: 45px;
-  font-family: 'Gontserrat-Bold';
-  line-height: 60px;
+  font-size: 32px;
+  font-weight: 500;
+  /* font-family: 'Gontserrat-Bold'; */
+  /* line-height: 60px; */
   color: #fff;
 }
-@media (max-width: 976px) {
+/* @media (max-width: 976px) {
   .feature_blog-h1{
       font-size: 25px;
       line-height:32px;
@@ -267,7 +300,7 @@ border-radius: 15px;
   font-size: 12px;
   line-height: 16px;
   }
-}
+} */
 
 /* ////feature blogs section custom style css end */ 
 

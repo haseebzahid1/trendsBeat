@@ -41,39 +41,60 @@ $('.owl-carousel-3').owlCarousel({
   //     }
   // }
 })
-
-  $('.owl-carousel-product').owlCarousel({
-    items:4,
-    loop:true,
-    margin:10,
-    merge:true,
-    dots:false,
-    mergeFit:true,
-    responsive:{
-        567:{
-            mergeFit:true,
-            items:3,
-            margin:20,
-        },
-        // 767:{
-        //     mergeFit:true,
-        //     items:3,
-        //     margin:30,
-        // },
-        1000:{
-          mergeFit:true,
-            // mergeFit:false,
-            items:4,
-            margin:50,
-        },
-        1400:{
-          margin:50,
-          mergeFit:true,
-            // mergeFit:true,
-            items:4,
-        }
-    }
+$(".owl-products").owlCarousel({
+  items: 3,
+  dots: false,
+  nav: false,
+  loop: true,
+  center:true,
+  autoplay: true,
+  autoplayHoverPause:true,
+  slideSpeed: 3000,
+  paginationSpeed: 5000,
+  smartSpeed:1000,
+  responsive: {
+      992: {
+          items: 3
+      },
+      600: {
+          items: 3
+      },
+      320: {
+          items: 1
+      },
+      280: {
+          items: 1
+      }
+  }
 });
+//   $('.owl-carousel-product').owlCarousel({
+//     items:4,
+//     loop:true,
+//     margin:10,
+//     merge:true,
+//     dots:false,
+//     mergeFit:true,
+//     responsive:{
+//         567:{
+//             mergeFit:true,
+//             items:3,
+//             margin:20,
+//         },
+      
+//         1000:{
+//           mergeFit:true,
+       
+//             items:4,
+//             margin:50,
+//         },
+//         1400:{
+//           margin:50,
+//           mergeFit:true,
+      
+//             items:5,
+//         }
+//     }
+// });
 
 
 
