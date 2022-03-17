@@ -20,14 +20,20 @@
 .border-radius-div-banner{
     margin-top:141px;
     border-radius: 15px;
+    width: 100%;
 }
 .about-img{
     width: 100%;
     border-radius: 15px;
     /* padding-top: 40px; */
-    height: 337px;
+    /* height: 337px; */
     object-fit: cover;
     background-size: cover;
+}
+@media(max-width:576px){
+    .about-img{
+        /* height: auto; */
+    }
 }
 .health-bg-banner-img{
     width: 100%;
@@ -588,16 +594,7 @@
         max-width: 80%;
         height: 410px;
     }
-    /* .popup-vedio-buttone a{
-        width: 37px;
-        height: 39px;
-    } */
-    .closee{
-        /* width: 52px;
-        height: 28px;
-        top: 1rem;
-        right: 1rem; */
-    }
+   
 }
 @media (max-width:576px){
     .vedio-title-h1{

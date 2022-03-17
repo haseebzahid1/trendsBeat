@@ -27,7 +27,7 @@ $('.owl-carousel-3').owlCarousel({
   autoplay:false,
   items:1,
   loop:true,
-  margin:10,
+  // margin:10,
   responsiveClass:true,
   nav:false,
   dots:false,
@@ -52,6 +52,7 @@ $(".owl-products").owlCarousel({
   slideSpeed: 3000,
   paginationSpeed: 5000,
   smartSpeed:1000,
+  
   responsive: {
       992: {
           items: 3

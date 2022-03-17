@@ -6,9 +6,7 @@
     /* background-color: #606060; */
     z-index: 333;
 }
-.max-vertical-line{
-    /* position: relative; */
-}
+
 @media (max-width:992px){
     
 }
@@ -103,9 +101,7 @@
     .banner-left-top{
         padding-top: 36px;
     }
-    .feature_blogs-padding{
-        padding-bottom: 90px !important;
-    }
+    
 }
 @media (max-width:576px){
     .banner-left-line{
@@ -115,9 +111,7 @@
     .meta-quest-title-mt{
         margin-bottom: 10px;
     }
-    .feature_blogs-padding{
-        padding-bottom: 45px !important;
-    }
+  
     /* .banner-left-top{
         padding-top: 36px;
     } */
