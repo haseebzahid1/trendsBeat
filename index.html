@@ -95,7 +95,15 @@
                             </li>
             
                     </div>
-                    <div> <span class="open_search"><i class="fas fa-search"></i> </span></div>
+                    <input type="checkbox" id="show-search" class="d-none">
+                    <label for="show-search" class=" open_search nav-search-icon search-icon">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <!-- <div> <span class="open_search"><i class="fas fa-search"></i> </span></div> -->
+                    <form action="#" class="nav-search-box search-box">
+                        <input type="text" placeholder="Type Something to Search..." required class="nav-search-box-input">
+                        <button type="submit" class="nav-go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+                      </form>
                 </div>
                 <!--Side Menu Button-->
                 <a href="javascript:void(0)" class="parallax-btn sidemenu_btn" id="sidemenu_toggle">
@@ -110,7 +118,7 @@
             </div>
         </nav>
     
-    
+       
         <!--Side Nav-->
         <div class="side-menu">
       
@@ -119,7 +127,7 @@
                     <div class="row w-100">
                <div class="col-lg-6 mb-5">
                     <a href="#banner-sec" title="Logo" class=" scroll navbar-brand">
-                        <img src="task-1/img/side-nav-logo.png" alt="logo">
+                        <img src="./vendor/img/side-nav-logo.png" alt="logo">
                     </a>
                 </div>
                 <div class="col-lg-6 mb-5 center-block text-end">
@@ -278,6 +286,9 @@
 <!-- End Header -->
 <!-- Banner section -->
    
+
+   
+
 <section class="header-sec py-0 margin-top " id="banner">
     <div class="row gx-0">
         <div class="col-12 col-md-4">
@@ -809,7 +820,7 @@
 
 
 
-<!-- feature blog review section start -->
+<!-- - blog review section start -->
 <div class="feature_blogs-padding feature_blogs-padding-pm" id="blog">
     <div class="container">
         <div class="row">

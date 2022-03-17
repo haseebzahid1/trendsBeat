@@ -52,7 +52,7 @@ $(".owl-products").owlCarousel({
   slideSpeed: 3000,
   paginationSpeed: 5000,
   smartSpeed:1000,
-  
+  // margin:15,
   responsive: {
       992: {
           items: 3
@@ -183,3 +183,6 @@ $('.meta-owl-carousel').owlCarousel({
       
   }
 })
+
+
+
