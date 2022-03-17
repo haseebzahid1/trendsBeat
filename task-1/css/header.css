@@ -217,6 +217,11 @@
     height: 736px;
     position: relative;
 }
+@media (max-width:1400px){
+    .detail-bg-img{
+        height: 580px;
+    }
+}
 .detail-bg-img:before{
     content: '';
     position: absolute;
@@ -264,7 +269,7 @@
 .header-sub-span{
     padding-left:50px ;
 }
-@media(max-width:1200px){
+@media(max-width:1400px){
     .detail-header-title-h1{
         font-size: 70px;
         line-height: 90px;
@@ -273,8 +278,8 @@
 }
 @media(max-width:992px){
     .detail-header-title-h1{
-        font-size: 70px;
-        line-height: 90px;
+        font-size: 45px;
+        line-height: 55px;
     }
     .detail-header-content{
         padding-left: 5%

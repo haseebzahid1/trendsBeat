@@ -30,11 +30,7 @@
     object-fit: cover;
     background-size: cover;
 }
-@media(max-width:576px){
-    .about-img{
-        /* height: auto; */
-    }
-}
+
 .health-bg-banner-img{
     width: 100%;
     height: 994px;
@@ -176,21 +172,7 @@
         padding-top: 102px;
         padding-bottom: 84px;
     }
-    /* .footer-social-icon svg{
-        width: 57px;
-        height: 57px;
-    } */
-}
-@media (min-width: 992px) {
-    .footer-nav-title{
-        font-size: 24px;
-    }
-}
-@media (max-width: 992px) {
-    .footer-social-icon svg{
-        width: 50px;
-        height: 50px;
-    }
+   
 
     .footer-social-icon svg{
         bottom: -25px;
@@ -199,14 +181,40 @@
         font-size: 17px;
         margin-bottom: 20px;
     }
+  
+}
+
+
+@media (max-width:1366px){
+    .footer-padding{
+        padding-top: 69px;
+        padding-bottom: 69px;
+    }
+    .footer-title-margin {
+        margin-top: 45px;
+        margin-bottom: 50px;
+    }
+    .footer_app_store,
+    .footer_google_play{
+        max-width: 150px;
+    }
+    .footer-logo svg{
+        max-width: 341px;
+    }
+    .footer-nav-title{
+        font-size: 20px;
+    }
+    .footer-social-icon svg{
+        width: 40px;
+        height: 40px;
+        bottom: -27px;
+    }
     .footer-title-margin {
         margin-top: 50px;
         margin-bottom: 45px;
     }
+  
 }
-
-
-
 @media (max-width:576px){
     .footer-logo{
         max-width: 270px;
