@@ -882,6 +882,11 @@ nav #show-search:checked ~ .nav-search-box{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
+@media(max-width:576px){
+    .side-menu .inner-wrapper {
+        padding-left: 1rem;
+    }
+}
 
 .pul-menu.pushwrap .side-menu .inner-wrapper{
     padding: 3.5rem 2.5rem;
@@ -1622,3 +1627,11 @@ nav #show-search:checked ~ .nav-search-box{
 
 
 
+@media(max-width:567px){
+    .side-menu.nav-item{
+        margin: 7px 0;
+    }
+    .side-heading{
+        font-size: 20px;
+    }
+}

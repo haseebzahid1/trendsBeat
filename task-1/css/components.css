@@ -1,3 +1,7 @@
+.health-mobile-px{
+    padding-right: 20px;
+}
+
 .team-max-width{
     width: 100%;
     max-width: 1520px !important;
@@ -92,12 +96,20 @@
 .meta-quest-title-mt{
     margin-bottom: 40px;
 }
-
-@media (max-width:992px){
+.blog-owl-caorousel{
+    margin-top: 60px;
+  }
+  
+@media (max-width:1366px){
     .banner-left-line{
-        margin-top: 40px !important;
-        height: 7px;
+        margin-top: 36px !important;
+        height: 5px;
     }
+  
+    
+}
+@media (max-width:992px){
+   
     .banner-left-top{
         padding-top: 36px;
     }
@@ -108,71 +120,17 @@
         margin-top: 19px !important;
         height: 4px;
       }
-    .meta-quest-title-mt{
-        margin-bottom: 10px;
-    }
-  
-    /* .banner-left-top{
-        padding-top: 36px;
-    } */
-    
 }
 
-.meta-quest-title,
-.sub-domain-title{
-    /* font-size: 60px; */
-    font-size: 55px;
-    /* line-height: 80px; */
-    color: #606060;
-    font-family: 'Gontserrat-Bold';
-    
-}
-.meta-owl-carousel{
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-.blog-owl-caorousel{
-    margin-top: 60px;
-  }
-  @media(max-width:992px){
-    .meta-quest-title,
-    .sub-domain-title{
-        font-size: 41px;
-        /* line-height: 45px; */
-    }
-    .meta-owl-carousel{
-        padding-left: 1.50rem;
-        padding-right: 1.50rem;
-    }
-}
-@media (max-width:768px){
-    .sub-domain-title,.meta-quest-title{
-        font-size:36px ;
-    }
-    /* .meta-quest-title{
-        font-size: 36px;
-    } */
-}
+
+
+
 
 @media(max-width:576px){
-    .sub-domain-title,
-    .meta-quest-title{
-        font-size: 20px;
-    }
-    .meta-quest-title{
-        padding-top: 17px;  
-        /* line-height: 35px;   */
-        /* line-height: 0; */
-        /* margin-bottom: 5px; */
-    }
     .blog-owl-caorousel{
         margin-top: 14px;
       }
 }
-
-
-
-
 
 /* //////* ////detail form section custom style css start */ 
 .contact-form{
@@ -270,7 +228,7 @@
 .detail-form-title{
     font-size: 60px;
     color:#606060;
-    line-height: 80px;
+    /* line-height: 80px; */
     font-family: 'Gontserrat-Bold';
 }
 
@@ -283,6 +241,11 @@
     color:#9B9B9B ;
     font-family: 'Gontserrat-Bold';
     margin-bottom: 10px;
+}
+@media (max-width:1366px){
+    .detail-form-title{
+        font-size: 45px
+    }
 }
 @media (max-width:992px){
     .write-h1{

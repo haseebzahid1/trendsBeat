@@ -538,7 +538,7 @@
    border-radius: 50% !important;
 }
 /* //vedio popup end */
-@media (max-width:992px){
+@media (max-width:1366px){
     .popup-full-container .vedio-popup-overlay{
         width: 100%;
         max-width: 66%;
@@ -692,12 +692,8 @@
 .detail-right-icon:first-child{
     margin-right: 34px ;
 }
-@media (max-width:768px){
-    .detail-right-icon-none {
-        display: none;
-    }
-}
-@media (max-width:1200px){
+
+@media (max-width:1366px){
     .social-left-text{
         font-size: 19px;
     }
@@ -710,11 +706,8 @@
         height: 24px;
         margin-left: 10.9px !important;
     }
-    
-}
-@media (max-width:992px){
     .detail-small-right-banner{
-        height: 296px;
+        height: 426px;
     }
     .social-left-text{
         font-size: 15px;
@@ -723,7 +716,18 @@
         width: 22px;
         height: 21px;
     }
+    .detail-banner-line-text{
+        margin-top: 37.5px;
+    }
+    
 }
+@media (max-width:768px){
+    .detail-right-icon-none {
+        display: none;
+    }
+}
+
+
 @media (max-width:576px){
     .social-left-text{
         font-size: 10px;
@@ -750,11 +754,7 @@
 .detail-banner-line-text{
     margin-top: 60.5px;
 }
-@media (max-width:576px){
-    .detail-banner-line-text{
-        margin-top: 37.5px;
-    }
-}
+
 
 
 
@@ -765,6 +765,12 @@
 .detail-sub-domain{
     padding-top:111px !important;
 
+}
+@media (max-width:1366px){
+    .detail-sub-domain{
+        padding-top:70px !important;
+    
+    }
 }
 @media (max-width:768px){
     .detail-sub-domain{
@@ -782,7 +788,7 @@
     width: 100%;
     height: 1413px;
 }
-.sub-right-bg-img{
+.sub-right-bg img{
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -856,7 +862,19 @@
     font-family: 'Gontserrat-Regular';
     margin-bottom: 0;
 }
-
+@media (max-width:1366px){
+    .sub-domain-title{
+        margin-bottom: 45px;
+    }
+    .sub-domain-left-bg{
+        margin-top: 48px;
+        margin-bottom: 60px;
+        height: 420px;
+    }
+    .sub-right-bg{
+        height:680px;
+    }
+}
 @media (max-width:768px){
     .sub-domain-title{
         margin-bottom:0px ;
@@ -975,7 +993,7 @@
     height: 20px;
     border-radius: 50px;
     background-color: gray;
-    bottom: 0px;
+    bottom: 0%;
     left:  -7px;
 }
 .oscar-title-h3{
@@ -1010,7 +1028,30 @@
     margin-left: 25px;
 }
 
-
+@media (max-width:1366px){
+    .oscar-mt{
+        padding-top: 26px;
+    }
+    .textnomial-verticle:before{
+        top: 6%;
+    }
+    .textnomial-verticle:after{
+        bottom: 0%;
+    }
+    .textnomial-verticle{
+        height: 76%;
+    }
+    .textnomial-verticle-center{
+        height: 32%;
+    }
+    .textnomial-verticle-center:before{
+        bottom: 0%;
+    }
+    .sub-profile-flex{
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+}
 @media (max-width:576px){
     .textnomial-container{
         margin-top: 6px;
@@ -1075,5 +1116,34 @@
         left: -3px;  
     }
 }
-@media (max-width:992px){}
+
 /* //////* ////textnomial form section custom style css end */ 
+
+
+
+   
+ 
+
+
+@media (max-width:576px){
+    .meta-quest-title-mt{
+        margin-bottom: 10px;
+    }
+  
+}
+
+.nav-logo-positon{
+    position: relative !important;
+    width: 300px;
+    height: 170px;
+}
+.nav-logo-positon svg{
+    position: absolute !important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    fill: wheat;
+    margin-right: auto;
+}

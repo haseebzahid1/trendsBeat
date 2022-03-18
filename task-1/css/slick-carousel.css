@@ -478,6 +478,19 @@ height: 100%;
 
 
 /* //////* ////meta-quest  section custom style css start */ 
+.meta-quest-title,
+.sub-domain-title{
+    font-size: 55px;
+    color: #606060;
+    font-family: 'Gontserrat-Bold';
+    
+}
+.meta-owl-carousel{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+ 
 
 
 .meta-quest{
@@ -485,12 +498,8 @@ height: 100%;
   padding-bottom:44.7px !important;
   background-color: #FAFAFA;
 }
-@media (max-width:576px){
-  .meta-quest{
-    padding-top: 1.3px !important;
-    padding-bottom: 26.7px !important;
-  }
-}
+
+
 .meta-owl-bg-container{
   padding: 0.5rem;
   padding-bottom: 29px;
@@ -504,16 +513,6 @@ height: 100%;
   border-radius: 10px;
   
 }
-/* .meta-owl-bg-img:before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  z-index: 2;
-} */
 .meta-owl-bg-img img{
   width: 100%;
   height: 100%;
@@ -529,7 +528,7 @@ height: 100%;
 .meta-owl-h1{
   color: #fff;
   font-size: 60px;
-  line-height: 80px;
+  /* line-height: 80px; */
   font-family: 'Gontserrat-Bold';
   margin-top: 8px;
 }
@@ -563,33 +562,64 @@ height: 100%;
   color: #CC172D;
   font-family: 'Gontserrat-Regular';
 }
-@media(max-width:992px){
+@media(max-width:1366px){
+  .meta-quest-title,
+  .sub-domain-title{
+      font-size: 41px;
+  }
+ 
+  .meta-owl-h1{
+    color: #fff;
+    font-size: 35px;
+  }
   .meta-owl-right-button {
-    /* font-size: 17px; */
     height: 40px;
     line-height: 40px;
   }
   .meta-owl-right-button a{
     font-size: 17px;
   }
+  .meta-owl-bg-img{
+    height: 225px;
+  }
 }
+
+@media (max-width:992px){
+  .meta-owl-carousel{
+    padding-left: 1.50rem;
+    padding-right: 1.50rem;
+}
+}
+
+
+
 @media(max-width:576px){
- 
+  .sub-domain-title,
+  .meta-quest-title{
+      font-size: 20px;
+  }
+  .meta-quest-title{
+      padding-top: 17px;  
+  }
+  
+  .meta-quest-title-mt{
+      margin-bottom: 10px;
+  }
+  .meta-quest{
+    padding-top: 1.3px !important;
+    padding-bottom: 26.7px !important;
+  }
   .meta-owl-bg-img{
     height: 170px;
   }
-  .meta-owl-right-button {
-    font-size: 15px;
-    /* height: 34px; */
-    /* line-height: 34px; */
-  }
+ 
   .meta-owl-right-button a{
     font-size: 15px;
   }
   .meta-owl-h1{
   color: #fff;
   font-size: 35px;
-  line-height: 47px;
+  /* line-height: 47px; */
   font-family: 'Gontserrat-Bold';
   margin-top: 8px;
    }
@@ -598,12 +628,12 @@ height: 100%;
      margin-bottom: 0.6rem;
    }
 }
+
+
 .owl-btn-2{
   margin-left: 1rem;
   background-color: transparent;
-  /* margin-left: auto;
-  margin-right: auto; */
- 
+
 }
 
 .owl-btn-2 span{
