@@ -27,10 +27,16 @@ $('.owl-carousel-3').owlCarousel({
   autoplay:false,
   items:1,
   loop:true,
-//   margin:10,
+  margin:10,
   responsiveClass:true,
   nav:false,
   dots:false,
+  center:true,
+  autoplay: true,
+  autoplayHoverPause:true,
+  slideSpeed: 3000,
+  paginationSpeed: 5000,
+  smartSpeed:1000,
   // responsive:{
       
   //     676:{
@@ -52,13 +58,13 @@ $(".owl-products").owlCarousel({
   slideSpeed: 3000,
   paginationSpeed: 5000,
   smartSpeed:1000,
-  // margin:15,
   responsive: {
       992: {
           items: 3
       },
       600: {
-          items: 3
+          items: 3,
+        
       },
       320: {
           items: 1
@@ -101,6 +107,12 @@ $('.header-mobile-container').owlCarousel({
   responsiveClass:false,
   nav:false,
   dots:true,
+  center:true,
+  autoplay: true,
+  autoplayHoverPause:true,
+  slideSpeed: 3000,
+  paginationSpeed: 5000,
+  smartSpeed:1000,
   responsive:{
       0:{
           items:1

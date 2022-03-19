@@ -100,9 +100,7 @@ p{
     color: #fff;
 }
 
-.grey{
 
-}
 
 .grey:hover{
     color: #ff573b;
@@ -538,6 +536,7 @@ svg {
     /* margin-left: 70px; */
      margin-left: auto; 
     margin-right: auto; 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .nav-search-box-input{
@@ -548,23 +547,24 @@ svg {
     display: block;
     font-size: 17px;
     color: #fff;
-    background: #171c24;
+    background: #fff;
+    color:#171c24;
     padding: 0 100px 0 15px;
-  
+  cursor: default;
   
     /* margin-left: auto;
     margin-right: auto; */
     
 }
 .nav-search-box-input::placeholder{
-        color: #f2f2f2;
+    color:#171c24;
 }
 
 .nav-go-icon{
     width: 70px;
     height: 100%;
     border:none;
-    background: #171c24;
+    background: #fff;
     position: absolute;
     right: 10px;
     top: 0;
@@ -575,9 +575,11 @@ svg {
 }
 nav #show-search:checked ~ .nav-search-box{
     opacity: 1;
-    /* pointer-events: auto; */
-    background-color: red;
+    pointer-events: auto;
+
   }
+
+
 /* nav top default */
 
 .navbar-top-default{
@@ -882,11 +884,7 @@ nav #show-search:checked ~ .nav-search-box{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-@media(max-width:576px){
-    .side-menu .inner-wrapper {
-        padding-left: 1rem;
-    }
-}
+
 
 .pul-menu.pushwrap .side-menu .inner-wrapper{
     padding: 3.5rem 2.5rem;
@@ -1626,12 +1624,23 @@ nav #show-search:checked ~ .nav-search-box{
 
 
 
-
-@media(max-width:567px){
-    .side-menu.nav-item{
-        margin: 7px 0;
+@media(max-width:768px){
+    .side-menu .nav-item{
+        margin: 6px 0;
+    }
+    .side-menu .inner-wrapper {
+        padding-top: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .side-heading{
-        font-size: 20px;
+        font-size: 23px;
+    }
+    .side-menu .btn-close {
+        right: 34px;
+        top: 20px;
+    }
+    .nav-item .side-nav-link{
+        font-size: 15px;
     }
 }
