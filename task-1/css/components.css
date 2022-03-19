@@ -2,6 +2,13 @@
     padding-right: 0px;
 }
 
+@media(max-width:576px){
+    .health-mobile-px{
+        padding-right: 10px;
+        padding-left: 12px;
+    }
+    
+}
 .team-max-width{
     width: 100%;
     max-width: 1520px !important;
@@ -29,14 +36,10 @@
     padding-top: 0 ;
    padding-bottom: 0 ;
 }
-.health-section,
 .sports-section{
     padding-bottom:100px !important;
-   /* background-color: saddlebrown; */
    position: relative !important;
-   /* z-index: 222 !important; */
 }
-.vertical-1,
 .vertical-2{
     content: '';
     position: absolute;
@@ -46,9 +49,7 @@
     height: 100%;
     /* z-index: -1; */
 }
-.vertical-1{
-    left:0;
-}
+
 .vertical-2{
     right: 0;
     /* z-index: -11; */
@@ -56,13 +57,7 @@
 
 
 
-.feature_blogs-padding{
-    background-color: rgba(237, 237, 237, 0.5); 
-    position: relative;
-    padding-top: 35px !important;
-    padding-bottom: 145px !important;
-    
-  }
+
   
   .detail-bg-0{
     background-color: transparent !important;

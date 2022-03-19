@@ -27,7 +27,7 @@ $('.owl-carousel-3').owlCarousel({
   autoplay:false,
   items:1,
   loop:true,
-  margin:10,
+  margin:0,
   responsiveClass:true,
   nav:false,
   dots:false,
