@@ -1,4 +1,5 @@
-
+/* background-color: #E8E8E8;
+color: #D9D9D9; */
 
 /*=========================
    Google Fonts
@@ -1935,14 +1936,25 @@ nav #show-search:checked ~ .nav-search-box{
     margin-top:141px;
     border-radius: 15px;
     width: 100%;
+    height: 994px;
+    background-color: #E8E8E8;
+    color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-.health-bg-banner-img{
-    width: 100%;
-    height: 994px;
-    object-fit: cover;
-    background-size: cover;
+.border-radius-banner-h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Gontserrat-Bold';
+    text-align: center;
+    color: #D9D9D9;
+}
+@media(max-width:992px){
+    .border-radius-banner-h1{
+        font-size: 25px;
+    }
 }
 
 /* HEALTH DESTOP  SECTION END */
@@ -2241,14 +2253,25 @@ nav #show-search:checked ~ .nav-search-box{
 .banner-inner{
     width: 100%;
     height: 177px;
+    background-color: #E8E8E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
 }
-.banner-inner img{
+.banner-inner-h1{
+    font-size: 45px;
+    font-family: 'Gontserrat-bold';
+    color: #D9D9D9;
+    text-transform: uppercase;
+}
+/* .banner-inner img{
     width: 100%;
     height: 100%;
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
-}
+} */
 /* ////banner section custom style css end */ 
 
 
@@ -2317,18 +2340,32 @@ nav #show-search:checked ~ .nav-search-box{
     padding-top: 159px !important;
     padding-bottom: 74.5px !important;
     position: relative;
+   
 }
+
 .detail-banner-bg{
     width: 100%;
     height: 160px;
+    /* background-color: #F6F6F6; */
+    background-color: #E8E8E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
-.detail-banner-bg img{
+.detail-baner-h1{
+    font-size: 45px;
+    font-family: 'Gontserrat-Bold';
+    color: #D9D9D9 !; 
+
+}
+/* .detail-banner-bg img{
     background-size: cover;
     object-fit: cover;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-}
+} */
 .banner-left-top{
     padding-top: 56px;
 }
@@ -2369,12 +2406,23 @@ nav #show-search:checked ~ .nav-search-box{
     width: 100%;
     height: 544px;
     position: relative;
+    /* background-color: #F6F6F6; */
+    background-color: #E8E8E8;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
-.detail-small-right-banner img{
+.detail-small-h1{
+    font-size: 35px;
+    font-family: 'Gontserrat-Bold';
+    text-transform: uppercase;
+    color: #D9D9D9; 
+}
+/* .detail-small-right-banner img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 .meta-quest-title-mt{
     margin-bottom: 40px;
 }
@@ -2915,15 +2963,21 @@ nav #show-search:checked ~ .nav-search-box{
 .about-banner-bg,
 .contact-banner-bg{
     width: 100%;
-    height: 170px;
+    min-height: 170px;
+    /* background-color: #F6F6F6; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E8E8E8;
+;
+
 }
-.about-banner-bg img,
-.contact-banner-bg img{
-    background-size: cover;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
+.about-h1,
+.contact-h1{
+    font-family: 'Gontserrat-Bold';
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #D9D9D9
 }
 .about-banner-line-text,
 .contact-banner-line-text{
@@ -2991,16 +3045,16 @@ nav #show-search:checked ~ .nav-search-box{
 .footer-logo{
     position: relative;
 }
-.footer-logo svg{
-    position: relative;
-    left: 0;
-    bottom: 0;
+.footer-logo img{
+
+    width: 100%;
     max-width: 441px;
     height: 97px;
+    
 }
 
 .footer-nav-title{
-    font-size: 17px;
+    font-size: 28px;
     font-family: 'Gontserrat-Regular';
     color: #fff;
     opacity: 55%;
@@ -3137,7 +3191,7 @@ nav #show-search:checked ~ .nav-search-box{
         max-width: 341px;
     }
     .footer-nav-title{
-        font-size: 20px;
+        /* font-size: 20px; */
     }
     .footer-social-icon svg{
         width: 40px;
@@ -3162,6 +3216,8 @@ nav #show-search:checked ~ .nav-search-box{
     }
     .detail-small-right-banner{
         height: 426px;
+        width: 100%;
+        background-color: #F6F6F6
     }
     .social-left-text{
         font-size: 15px;
@@ -3204,6 +3260,16 @@ nav #show-search:checked ~ .nav-search-box{
     margin-top: 48px;
     margin-bottom: 60px;
     height: 420px;
+    background-color: #E8E8E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-domain-left-h1{
+    font-size: 35px;
+    color: #D9D9D9;
+    font-family: 'Gontserrat-Bold';
+   text-transform: uppercase;
 }
   .sub-right-bg{
     height:680px;
@@ -3302,7 +3368,11 @@ nav #show-search:checked ~ .nav-search-box{
         font-size: 30px;
     }
     .footer-nav-title{
-        font-size: 28px;
+        font-size: 18px;
+    }
+    .footer-logo img{
+        max-width: 395px;
+        height: 87px;
     }
     .detail-header-title-h1{
         font-size: 45px;
@@ -3809,6 +3879,22 @@ nav #show-search:checked ~ .nav-search-box{
     margin-top: 14px;
   }
 
+  .about-h1,
+.contact-h1{
+    font-size: 25px;
+}
+.detail-banner-bg{
+    display: none;
+}
+.detail-baner-h1,
+.detail-small-h1{
+    font-size: 25px;
+}
+
+.footer-logo img{
+    max-width: 287px;
+    height: 64px;
+}
  }
 
 
